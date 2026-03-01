@@ -63,24 +63,3 @@ The project builds a single file executable: `SharePointUploaderSetup.exe`.
 To remove the service, run `SharePointUploaderSetup.exe` as Administrator and click the red **Uninstall Service** button.
 
 ---
-
-## 🛠️ Development & Building
-
-If you are a developer modifying the source code, follow these steps to build the installer.
-
-### Requirements
-*   Python 3.10+
-*   Virtual Environment (Recommended)
-
-### Setup
-```bash
-# Clone repository
-git clone <your-repo-url>
-cd <repo-folder>
-
-# Create virtual environment
-python -m venv venv
-.\venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
